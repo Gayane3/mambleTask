@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+*{
+  font-family: "Poppins";
+}
+body{
+  background-color: #e5e5e5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.todoButton{
+  background-color: #008594;
+  border:none;
+  border-radius: 4px;
+  width: 100px;
+  height: 52px;
   color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.inputStyle{
+  width: 954px;
+  height: 52px;
+  border: 1px solid #FFCD04;
+  border-radius: 4px;
+    box-sizing: border-box;
+    margin-right:24px;
+    margin-bottom:80px;
+      margin: 256px 24px 80px 80px;
+      padding-left: 10px;
+}
+::placeholder{
+  width: 92px;
+  margin:5px;
+  color: #dfdfdf;
+  font-weight: 400;
+  font-size: 18px;
+}
+.label{
+color: #174348;
+position:relative;
+top: -35px;
+left: 110px;
+}
+.todoItem{
+width: 1170px;
+height: 72px;
+color: #666666;
+margin-left: 108px;
+border-bottom: 1px solid rgb(201, 198, 198);
+box-sizing: border-box;
+padding-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.check{
+  width: 18px;
+    height: 18px;
+  border: 3px solid #008594;
+  margin-right: 35px;
+  position: relative;
+  top: 7px
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.xBtn{
+  position: absolute;
+  right: 260px;
+  border:none;
+  color: #174348;
+  background-color: #e5e5e5;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  
+}
+.errorText {
+color: #FF3104;
+font-size: 12px;
+ position: absolute;
+ bottom:353px;
+ left:112px
+}
+.head1{
+  font-size: 24px;
+  color: #ACACAC;
+  text-align: center;
+  line-height: 36px;
+  margin-bottom: -35px
+}
+.head2{
+  font-size: 36px;
+  color:#666666;
+  text-align: center;
 }
